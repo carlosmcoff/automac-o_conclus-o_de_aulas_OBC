@@ -1,0 +1,9 @@
+{
+  "keywords": [],
+  "author": "Carlos Oliveira",
+  "license": "ISC",
+  "description": "OneBitCode Online Lesson Automation",
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}
