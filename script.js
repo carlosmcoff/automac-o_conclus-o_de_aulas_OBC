@@ -46,7 +46,6 @@ const puppeteer = require('puppeteer');
     while(page.url() != lessonUrlToEnd) {
       await new Promise(resolve => setTimeout(resolve, 5000)); // wait 5 seconds for concluded
       await page.click("button[type='submit']")
-      await page.click("button[aria-label='Ir para a próxima aula']")
     }
 
   } else {
